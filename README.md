@@ -1,6 +1,4 @@
-# synthetic-data-generation
-Synthetic Data Generation
-Synthetic data generation for bias testing
+# Synthetic Data Generation For Bias Testing
 
 This project is part of NGO Algorithm Audit technical tools. Other projects from Algorithm Audit (AA) can be found at AA’s GitHub repo overview.
 
