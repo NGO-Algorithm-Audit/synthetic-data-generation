@@ -20,9 +20,12 @@ Methods used
 
 
 **Repo Overview**
--	Dataset folder ( Containing the full Law School Admission Bar Passage Dataset )
--	Notebooks folder ( Containing all relevant jupyther notebooks )
--	Requirements.text file with all the package requirements used for running the code in notebooks
+- README.md
+- LICENSE
+- Law School Admission Bar Passage folder 
+  -	Dataset folder ( Containing the full Law School Admission Bar Passage Dataset )
+  -	Notebooks folder ( Containing all relevant jupyther notebooks )
+  -	Requirements.txt file with all the package requirements used for running the code in notebooks
 
 **Notebooks**
 -	Data exploration Bar Passage Dataset.ipynb
