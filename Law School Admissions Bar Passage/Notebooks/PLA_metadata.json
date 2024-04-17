@@ -1,0 +1,41 @@
+{
+    "METADATA_SPEC_VERSION": "SINGLE_TABLE_V1",
+    "columns": {
+        "pass_bar": {
+            "sdtype": "categorical"
+        },
+        "ugpa": {
+            "sdtype": "numerical"
+        },
+        "decile1": {
+            "sdtype": "categorical"
+        },
+        "decile1b": {
+            "sdtype": "categorical"
+        },
+        "decile3": {
+            "sdtype": "categorical"
+        },
+        "lsat": {
+            "sdtype": "numerical"
+        },
+        "grad": {
+            "sdtype": "categorical"
+        },
+        "fulltime": {
+            "sdtype": "categorical"
+        },
+        "fam_inc": {
+            "sdtype": "categorical"
+        },
+        "tier": {
+            "sdtype": "categorical"
+        },
+        "race1": {
+            "sdtype": "categorical"
+        },
+        "gender": {
+            "sdtype": "categorical"
+        }
+    }
+}
