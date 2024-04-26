@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "synthetic-data-generation"
+version = "0.1.0"
+description = "A package for generating synthetic data basedon the DUO use case"
+authors = ["Emmanuel Menvouta <emmanueljordy.menvoutankpwele@kuleuven.be>"]
+readme = "README.md"
+packages = [{include = "synthetic_data_generation"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
