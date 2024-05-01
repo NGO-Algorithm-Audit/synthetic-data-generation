@@ -2,9 +2,11 @@
 
 This project is part of NGO Algorithm Audit technical tools. Other projects from Algorithm Audit (AA) can be found at AA’s [GitHub repo](https://github.com/NGO-Algorithm-Audit) overview.
 
+## Installation of dependencies
+
 To get this repository up and running:
 1. pip install poetry
-2. .... 
+2. poetry install 
 
 ## Project Overview
 
