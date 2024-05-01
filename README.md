@@ -2,6 +2,10 @@
 
 This project is part of NGO Algorithm Audit technical tools. Other projects from Algorithm Audit (AA) can be found at AA’s [GitHub repo](https://github.com/NGO-Algorithm-Audit) overview.
 
+To get this repository up and running:
+1. pip install poetry
+2. .... 
+
 ## Project Overview
 
 This project contains the source code for a synthetic data generation (SDG) algorithm and an evaluation of the generated dataset. The model used for SDG is a [Gaussian Copula Synthesizer](https://docs.sdv.dev/sdv/single-table-data/modeling/synthesizers/gaussiancopulasynthesizer). This model creates a synthetic dataset based on the publicly available [Law School Admission Bar Passage Dataset](https://www.kaggle.com/datasets/danofer/law-school-admissions-bar-passage), which contains background information on candidates and if candidates passed the bar exam to become legal practitioners in the USA. 
