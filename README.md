@@ -31,8 +31,8 @@ This project explores a case study aimed at assessing the practical application 
   -	Requirements.txt file with all the package requirements used for running the code in notebooks
 
 ## Notebooks
--	[Data exploration Bar Passage Dataset.ipynb](https://github.com/NGO-Algorithm-Audit/synthetic-data-generation/blob/main/Law%20School%20Admissions%20Bar%20Passage/Data%20exploration%20Bar%20Passage%20Dataset.ipynb)
--	Gaussian Coupola SDG Method on Bar Passage Dataset.ipynb
+-	[Data exploration Bar Passage Dataset.ipynb](https://github.com/NGO-Algorithm-Audit/synthetic-data-generation/blob/main/Law%20School%20Admissions%20Bar%20Passage/Notebooks/Data%20Exploration%20Bar%20Passage%20Dataset.ipynb)
+-	[Gaussian Coupola SDG Method on Bar Passage Dataset.ipynb](https://github.com/NGO-Algorithm-Audit/synthetic-data-generation/blob/main/Law%20School%20Admissions%20Bar%20Passage/Notebooks/Gaussian%20Coupola%20SDG%20Method%20on%20Bar%20Passage%20Dataset.ipynb)
 
 ## Contributing Members
 - Godwin Acheampong | https://github.com/Godwinbt
