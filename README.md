@@ -1,6 +1,8 @@
 # Synthetic Data Generation
 
-This project is part of NGO Algorithm Audit technical tools. Other projects from Algorithm Audit (AA) can be found at AA’s [GitHub repo](https://github.com/NGO-Algorithm-Audit) overview.
+This project is part of NGO Algorithm Audit technical tools. \
+☁️ Algorithm Audit: [website](https://algorithmaudit.eu/) \
+☁️ Other projects from Algorithm Audit: [GitHub repo overview](https://github.com/NGO-Algorithm-Audit)
 
 ## Installation of dependencies
 
@@ -26,15 +28,16 @@ This project explores a case study aimed at assessing the practical application 
 - Generating a synthetic dataset using a Gaussian Copula Synthesizer model 
 - Evaluate the created synthetic dataset based on fidelity and privacy metrics  
 
-
-
 ## Repo Overview
-- README.md
-- LICENSE
-- Law School Admission Bar Passage folder 
-  -	Dataset folder ( Containing the full Law School Admission Bar Passage Dataset )
-  -	Notebooks folder ( Containing all relevant jupyther notebooks )
-  -	Requirements.txt file with all the package requirements used for running the code in notebooks
+    .
+    ├── Law School Admissions Bar Passage                       # Dataset and synthetic data generation model
+    ├── docs                                                    # ..
+    ├── .flake8                                                 # ..
+    ├── .gitignore                                              # Files to be ignored in this repo
+    ├── .pre-commit-config.yaml                                 # ..
+    ├── LICENSE                                                 # MIT license for sharing
+    ├── Makefile                                                # File needed to compile this project
+    └── README.md                                               # Readme file 
 
 ## Notebooks
 -	[Data exploration Bar Passage Dataset.ipynb](https://github.com/NGO-Algorithm-Audit/synthetic-data-generation/blob/main/Law%20School%20Admissions%20Bar%20Passage/Notebooks/Data%20Exploration%20Bar%20Passage%20Dataset.ipynb)
