@@ -26,15 +26,15 @@ This project contains the source code for synthetic data generation (SDG) and an
 - Jupyter Notebook
 
 ## Project Description
-This project explores a case study aimed at assessing the practical application of SDG. This project uses the real-world [Law School Admission Bar Passage Dataset](https://www.kaggle.com/datasets/danofer/law-school-admissions-bar-passage) and employs the following approaches:   
+This project explores a case study aimed at assessing the practical application of SDG. This project uses the real-world [DUO CUB College Grant Check](https://github.com/NGO-Algorithm-Audit/DUO-CUB) and [Law School Admission Bar Passage Dataset](https://www.kaggle.com/datasets/danofer/law-school-admissions-bar-passage) and employs the following approaches:   
 - Analyzing the original dataset to summarize its main characteristics 
 - Generating a synthetic dataset using a Gaussian Copula Synthesizer model 
 - Evaluate the created synthetic dataset based on fidelity and privacy metrics  
 
 ## Repo Overview
     .
-    ├── DUO                                                     # Synthetic data generation model and synthetic data
-    ├── Law School Admissions Bar Passage                       # Dataset and synthetic data generation model
+    ├── DUO                                                     # DUO synthetic data generation model and synthetic data
+    ├── Law School Admissions Bar Passage                       # Law School dataset and synthetic data generation model
     ├── docs                                                    # ..
     ├── .flake8                                                 # ..
     ├── .gitignore                                              # Files to be ignored in this repo
@@ -44,9 +44,10 @@ This project explores a case study aimed at assessing the practical application 
     └── README.md                                               # Readme file 
 
 ## Notebooks
--	[Data exploration Bar Passage Dataset.ipynb](https://github.com/NGO-Algorithm-Audit/synthetic-data-generation/blob/main/Law%20School%20Admissions%20Bar%20Passage/Notebooks/Data%20Exploration%20Bar%20Passage%20Dataset.ipynb)
--	[Data exploration Bar Passage Dataset.ipynb](https://github.com/NGO-Algorithm-Audit/synthetic-data-generation/blob/main/Law%20School%20Admissions%20Bar%20Passage/Notebooks/Data%20Exploration%20Bar%20Passage%20Dataset.ipynb)
--	[Gaussian Coupola SDG Method on Bar Passage Dataset.ipynb](https://github.com/NGO-Algorithm-Audit/synthetic-data-generation/blob/main/Law%20School%20Admissions%20Bar%20Passage/Notebooks/Gaussian%20Coupola%20SDG%20Method%20on%20Bar%20Passage%20Dataset.ipynb)
+-	[DUO/freqs](https://github.com/NGO-Algorithm-Audit/synthetic-data-generation/tree/main/DUO/freqs)
+-	[DUO/GC_Table1.ipynb](https://github.com/NGO-Algorithm-Audit/synthetic-data-generation/blob/main/Law%20School%20Admissions%20Bar%20Passage/Notebooks/Data%20Exploration%20Bar%20Passage%20Dataset.ipynb)
+-	[Law School Admissions Bar Passage/Notebooks/Data Exploration Bar Passage Dataset.ipynb](https://github.com/NGO-Algorithm-Audit/synthetic-data-generation/blob/main/Law%20School%20Admissions%20Bar%20Passage/Notebooks/Data%20Exploration%20Bar%20Passage%20Dataset.ipynb)
+-	[Law School Admissions Bar Passage/Notebooks/Gaussian Coupola SDG Explained.ipynb](https://github.com/NGO-Algorithm-Audit/synthetic-data-generation/blob/main/Law%20School%20Admissions%20Bar%20Passage/Notebooks/Gaussian%20Coupola%20SDG%20Method%20on%20Bar%20Passage%20Dataset.ipynb)
 
 ## Contributing Members
 - Godwin Acheampong | https://github.com/Godwinbt
