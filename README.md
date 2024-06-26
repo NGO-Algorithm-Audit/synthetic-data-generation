@@ -13,7 +13,7 @@ To get this repository up and running:
 ## Project Overview
 
 This project contains the source code for synthetic data generation (SDG) and an evaluation report of the generated dataset. The model used for SDG is a [Gaussian Copula Synthesizer](https://docs.sdv.dev/sdv/single-table-data/modeling/synthesizers/gaussiancopulasynthesizer). This model creates a synthetic dataset for:
-- [DUO College Grant Control Process](https://github.com/NGO-Algorithm-Audit/DUO-CUB), check whether 500.000+ Dutch students were (un)duly allocated college grants in period 2014-2022
+- [DUO College Grant Control Process 2014](https://github.com/NGO-Algorithm-Audit/DUO-CUB), 20k sample of synthetic data of 248.648 Dutch students who were part of the control procedure in 2014
 - [Law School Admission Bar Passage Dataset](https://www.kaggle.com/datasets/danofer/law-school-admissions-bar-passage), which contains background information on candidates and if candidates passed the bar exam to become legal practitioners in the USA. 
 
 ### Methods used
