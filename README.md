@@ -1,8 +1,8 @@
 # Synthetic Data Generation
 
-This project is part of NGO Algorithm Audit technical tools. \
-☁️ Algorithm Audit: [website](https://algorithmaudit.eu/) \
-☁️ Other projects from Algorithm Audit: [GitHub repo overview](https://github.com/NGO-Algorithm-Audit)
+This project is part of NGO Algorithm Audit open-source AI auditing tools. \
+☁️ Synthetic data generation @Algorithm Audit: [website](https://algorithmaudit.eu/technical-tools/sdg/) \
+☁️ Other tools and projects of Algorithm Audit: [GitHub repo overview](https://github.com/NGO-Algorithm-Audit)
 
 ## Installation of dependencies
 
@@ -12,7 +12,10 @@ To get this repository up and running:
 
 ## Project Overview
 
-This project contains the source code for a synthetic data generation (SDG) algorithm and an evaluation of the generated dataset. The model used for SDG is a [Gaussian Copula Synthesizer](https://docs.sdv.dev/sdv/single-table-data/modeling/synthesizers/gaussiancopulasynthesizer). This model creates a synthetic dataset based on the publicly available [Law School Admission Bar Passage Dataset](https://www.kaggle.com/datasets/danofer/law-school-admissions-bar-passage), which contains background information on candidates and if candidates passed the bar exam to become legal practitioners in the USA. 
+This project contains the source code for synthetic data generation (SDG) and an evaluation report of the generated dataset. The model used for SDG is a [Gaussian Copula Synthesizer](https://docs.sdv.dev/sdv/single-table-data/modeling/synthesizers/gaussiancopulasynthesizer). This model creates a synthetic dataset for:
+- [DUO College Grant Control Process](https://github.com/NGO-Algorithm-Audit/DUO-CUB), check whether 500.000+ Dutch students were (un)duly allocated college grants in period 2014-2022
+- [Law School Admission Bar Passage Dataset](https://www.kaggle.com/datasets/danofer/law-school-admissions-bar-passage), which contains background information on candidates and if candidates passed the bar exam to become legal practitioners in the USA. 
+
 ### Methods used
 -	Exploratory Data Analysis
 -	Gaussian Copula Synthesizer
@@ -30,6 +33,7 @@ This project explores a case study aimed at assessing the practical application 
 
 ## Repo Overview
     .
+    ├── DUO                                                     # Synthetic data generation model and synthetic data
     ├── Law School Admissions Bar Passage                       # Dataset and synthetic data generation model
     ├── docs                                                    # ..
     ├── .flake8                                                 # ..
@@ -40,6 +44,7 @@ This project explores a case study aimed at assessing the practical application 
     └── README.md                                               # Readme file 
 
 ## Notebooks
+-	[Data exploration Bar Passage Dataset.ipynb](https://github.com/NGO-Algorithm-Audit/synthetic-data-generation/blob/main/Law%20School%20Admissions%20Bar%20Passage/Notebooks/Data%20Exploration%20Bar%20Passage%20Dataset.ipynb)
 -	[Data exploration Bar Passage Dataset.ipynb](https://github.com/NGO-Algorithm-Audit/synthetic-data-generation/blob/main/Law%20School%20Admissions%20Bar%20Passage/Notebooks/Data%20Exploration%20Bar%20Passage%20Dataset.ipynb)
 -	[Gaussian Coupola SDG Method on Bar Passage Dataset.ipynb](https://github.com/NGO-Algorithm-Audit/synthetic-data-generation/blob/main/Law%20School%20Admissions%20Bar%20Passage/Notebooks/Gaussian%20Coupola%20SDG%20Method%20on%20Bar%20Passage%20Dataset.ipynb)
 

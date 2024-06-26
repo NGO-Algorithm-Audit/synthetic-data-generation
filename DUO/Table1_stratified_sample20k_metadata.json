@@ -1,0 +1,23 @@
+{
+    "columns": {
+        "Education": {
+            "sdtype": "categorical"
+        },
+        "Age": {
+            "sdtype": "categorical"
+        },
+        "Distance": {
+            "sdtype": "categorical"
+        },
+        "Risk category": {
+            "sdtype": "categorical"
+        },
+        "Outcome house visit": {
+            "sdtype": "categorical"
+        },
+        "Outcome appeal": {
+            "sdtype": "categorical"
+        }
+    },
+    "METADATA_SPEC_VERSION": "SINGLE_TABLE_V1"
+}
