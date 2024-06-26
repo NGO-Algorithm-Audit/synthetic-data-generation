@@ -38,14 +38,14 @@ This project explores two case studies illustrating the practical application of
     ├── DUO                                                     # Synthetic data generation model applied on DUO data and resulting synthetic data
     ├── Images                                                  # Images
     ├── Law School Admissions Bar Passage                       # Law School dataset, synthetic data generation model and resulting synthetic data
-    ├── docs                                                    # Relevant literature
-    ├── .flake8                                                 # ..
+    ├── .flake8                                                 # Code linting
     ├── .gitignore                                              # Files to be ignored in this repo
-    ├── .pre-commit-config.yaml                                 # ..
+    ├── .pre-commit-config.yaml                                 # CI/CD pipeline
     ├── LICENSE                                                 # MIT license for sharing
     ├── Makefile                                                # File needed to compile this project
-    ├── poetry.lock                                             # Readme file 
-    └── pyproject.toml                                          # ..
+    ├── README.md                                               # Readme file
+    ├── poetry.lock                                             # repo set up tool  
+    └── pyproject.toml                                          # Configuration file and linter
 
 ## Notebooks
 -	[DUO/freqs](https://github.com/NGO-Algorithm-Audit/synthetic-data-generation/tree/main/DUO/freqs)
