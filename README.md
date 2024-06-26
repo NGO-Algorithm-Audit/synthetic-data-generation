@@ -1,8 +1,8 @@
-# Synthetic Data Generation
+![image](./Images/Header.png)
 
-This project is part of NGO Algorithm Audit open-source AI auditing tools. \
+This project is part of Algorithm Audit's open-source AI auditing tools. \
 ☁️ Synthetic data generation @Algorithm Audit: [website](https://algorithmaudit.eu/technical-tools/sdg/) \
-☁️ Other tools and projects of Algorithm Audit: [GitHub repo overview](https://github.com/NGO-Algorithm-Audit)
+🧰 Other tools and projects of Algorithm Audit: [GitHub repo overview](https://github.com/NGO-Algorithm-Audit)
 
 ## Installation of dependencies
 
